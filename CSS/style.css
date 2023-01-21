@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+/* Header CSS styling start */
+
+header{
+    padding: 30px 0;
+    background-color: #1f2937;
+}
+
+.header_menu
+a:link,
+a:visited
+{
+    color: #e5e7eb;
+    text-decoration: none;
+    
+}
+
+.header_menu
+a:hover
+{
+    color: rgb(145, 145, 145);
+}
+
+.header_menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 20%;
+   font-size: 18px;
+   color: #e5e7eb;
+}
+
+.header_menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+.header_menu .header_logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 1000;
+}
+
+/* Header CSS styling end */
