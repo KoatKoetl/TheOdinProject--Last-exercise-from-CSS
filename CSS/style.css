@@ -48,3 +48,16 @@ a:hover
 }
 
 /* Header CSS styling end */
+
+/* Header CSS styling Main_info block start */
+
+.Main_info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 20%;
+}
+
+.sign_up_block{
+    width: 400px;
+}
