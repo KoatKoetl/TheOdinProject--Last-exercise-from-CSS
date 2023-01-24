@@ -96,6 +96,27 @@ a:hover
 .image_placeholder{
     padding: 100px 150px;
     background-color: rgba(138, 136, 136, 0.8);
-    
 }
 
+/* Header CSS styling Main_info block end */
+
+/* Header CSS styling ... block start */
+
+.MoreInfo_container h1{
+    text-align: center;
+    margin: 70px 0;
+}
+
+.MoreInfo_container .image_blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-direction: row;
+}
+
+.MoreInfo_container img{
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+}
