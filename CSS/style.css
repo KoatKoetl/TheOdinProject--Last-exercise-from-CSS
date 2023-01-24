@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 }
 
 /* Header CSS styling start */
@@ -62,8 +63,39 @@ a:hover
 
 .Main_info_bgcolor{
     background-color: #1f2937;
+    padding-bottom: 150px;
 }
 
 .sign_up_block{
     width: 400px;
 }
+
+.sign_up_block h1{
+    font-weight: 1000;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.sign_up_block p{
+    margin: 0;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+.sign_up_block button{
+    padding: 6px 25px;
+    font-size: 18px;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.image_placeholder{
+    padding: 100px 150px;
+    background-color: rgba(138, 136, 136, 0.8);
+    
+}
+
