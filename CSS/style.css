@@ -178,4 +178,56 @@ a:hover
 
 /* CSS styling quote block end */
 
+/* CSS styling Sign_up block start */
 
+.Sign_up{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Sing_up_background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    padding: 50px 125px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.Sing_up_background a{
+    font-size: 26px;
+    margin: 0;
+    font-weight: 800;
+}
+
+.Sing_up_background p{
+    margin: 0;
+}
+
+.Sing_up_background button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: #f9faf8;
+    background-color: #3882F6;
+    border: 2px #f9faf8 solid;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/* CSS styling Sign_up block end */
+
+/* CSS styling Copyright block start */
+
+.Copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 50px;
+    color: #f9faf8;
+}
