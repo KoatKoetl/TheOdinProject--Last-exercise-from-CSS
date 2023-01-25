@@ -51,7 +51,7 @@ a:hover
 
 /* Header CSS styling end */
 
-/* Header CSS styling Main_info block start */
+/* CSS styling Main_info block start */
 
 .Main_info{
    display: flex;
@@ -100,9 +100,9 @@ a:hover
     flex-wrap: wrap;
 }
 
-/* Header CSS styling Main_info block end */
+/* CSS styling Main_info block end */
 
-/* Header CSS styling ... block start */
+/* CSS styling image_blocks start */
 
 .MoreInfo_container h1{
     text-align: center;
@@ -134,6 +134,7 @@ a:hover
     gap: 100px;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 
 .under_text div{
@@ -143,8 +144,38 @@ a:hover
     flex-shrink: 0;
     text-align: center;
     margin-top: 10px;
-    color: #6b6c6d;
+    color: #1f2937;
 }
 
+/* CSS styling image blocks end */
+
+/* CSS styling quote block start */
+
+.Quote_block{
+    background-color: #E5E7EB;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Quote_block p{
+    font-family: TimesNewRoman,Times New Roman,Times,Baskerville,Georgia,serif;
+    font-size: 36px;
+    width: 830px;
+    margin: 0;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.Quote_block div h3{
+    text-align: right;
+    color: #1f2937;
+    font-size: 25px;
+    margin: 0;
+}
+
+/* CSS styling quote block end */
 
 
