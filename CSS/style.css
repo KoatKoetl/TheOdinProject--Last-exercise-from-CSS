@@ -68,6 +68,7 @@ a:hover
 
 .sign_up_block{
     width: 400px;
+    flex-shrink: 0;
 }
 
 .sign_up_block h1{
@@ -96,6 +97,7 @@ a:hover
 .image_placeholder{
     padding: 100px 150px;
     background-color: rgba(138, 136, 136, 0.8);
+    flex-wrap: wrap;
 }
 
 /* Header CSS styling Main_info block end */
@@ -105,18 +107,44 @@ a:hover
 .MoreInfo_container h1{
     text-align: center;
     margin: 70px 0;
+
 }
 
-.MoreInfo_container .image_blocks{
+.image_blocks{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.MoreInfo_container img{
-    width: 100px;
-    height: 100px;
-    border: 1px black solid;
+.image_blocks div{
+    width: 150px;
+    height: 150px;
+    border: 3px #3B82F6 solid;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
+
+.under_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.under_text div{
+    width: 156px;
+    height: 156px;
+    border-radius: 10px;
+    flex-shrink: 0;
+    text-align: center;
+    margin-top: 10px;
+    color: #6b6c6d;
+}
+
+
+
